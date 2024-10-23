@@ -1,0 +1,119 @@
+{
+    "projects": [
+        {
+            "name": "Disney Clone",
+            "description": "Disney clone with React.js and Tailwind CSS.",
+            "href": "https://disney-clone-with-react.vercel.app/",
+            "image": "/img/project/disney.png",
+            "tags": [
+                "Javascript",
+                "React.js",
+                "Tailwind CSS"
+            ],
+            "links": [
+                {
+                    "name": "Live Demo",
+                    "href": "https://disney-clone-with-react.vercel.app/",
+                    "icon": "external-link"
+                },
+                {
+                    "name": "Source Code",
+                    "href": "https://github.com/onurvn/disney-clone",
+                    "icon": "github"
+                }
+            ]
+        },
+        {
+            "name": "Tesla Landing Page",
+            "description": "Tesla Landing Page with Astro",
+            "href": "https://tesla-landing-pied.vercel.app/",
+            "image": "/img/project/tesla.png",
+            "tags": [
+                "Javascript",
+                "Astro"
+            ],
+            "links": [
+                {
+                    "name": "Live Demo",
+                    "href": "https://tesla-landing-pied.vercel.app/",
+                    "icon": "external-link"
+                },
+                {
+                    "name": "Source Code",
+                    "href": "https://github.com/onurvn/tesla-landing",
+                    "icon": "github"
+                }
+            ]
+        },
+        {
+            "name": "E-Commerce",
+            "description": "E-Commerce application, with React.js and Next.js",
+            "href": "https://e-commerce-tau-gilt-30.vercel.app/",
+            "image": "/img/project/e-commerce.png",
+            "tags": [
+                "React.js",
+                "Next.js",
+                "Tailwind CSS"
+            ],
+            "links": [
+                {
+                    "name": "Live Demo",
+                    "href": "https://e-commerce-tau-gilt-30.vercel.app/",
+                    "icon": "external-link"
+                },
+                {
+                    "name": "Source Code",
+                    "href": "https://github.com/onurvn/e-commerce",
+                    "icon": "github"
+                }
+            ]
+        },
+        {
+            "name": "Music Ui",
+            "description": "Music Ui application, with React.js and Next.js",
+            "href": "https://music-ui-sand.vercel.app/",
+            "image": "/img/project/music-ui.png",
+            "tags": [
+                "React.js",
+                "Next.js",
+                "Tailwind CSS"
+            ],
+            "links": [
+                {
+                    "name": "Live Demo",
+                    "href": "https://music-ui-sand.vercel.app/",
+                    "icon": "external-link"
+                },
+                {
+                    "name": "Source Code",
+                    "href": "https://github.com/onurvn/music-ui",
+                    "icon": "github"
+                }
+            ]
+        },
+        {
+            "name": "Spotify Clone",
+            "description": "Spotify clone with React.js, Next.js and Tailwind CSS.",
+            "href": "https://spotify-clone-roan-seven.vercel.app/",
+            "image": "/img/project/spotify.png",
+            "tags": [
+                "React.js",
+                "Typescript",
+                "Next.js",
+                "Tailwind CSS"
+            ],
+            "links": [
+                {
+                    "name": "Live Demo",
+                    "href": "https://spotify-clone-roan-seven.vercel.app/",
+                    "icon": "external-link"
+                },
+                {
+                    "name": "Source Code",
+                    "href": "https://github.com/onurvn/spotify-clone",
+                    "icon": "github"
+                }
+            ]
+        }
+    ]
+}

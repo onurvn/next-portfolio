@@ -1,101 +1,57 @@
 import Image from "next/image";
+import Link from "next/link";
+import Socials from "@/app/components/Socials";
+import ResumeButton from "@/app/components/ui/ResumeButton";
+import Projects from "@/app/components/Projects";
+import { ArrowRightIcon } from "lucide-react";
+import Skills from "@/app/components/Skills";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
+    <div className="flex flex-col gap-16 pb-16 text-white">
+      <section className="flex flex-col mt-8 gap-8 md:flex-row-reverse md:items-center md:justify-between">
         <Image
-          className="dark:invert"
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
+          className="rounded-lg shadow-lg"
+          src="/img/pfp.jpg"
+          alt="pfp of Onur"
+          width={175}
+          height={175}
           priority
         />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+        <div className="flex flex-col ">
+          <h1 className="title text-4xl mb-2 font-extrabold text-gradient">
+            Onur Avan
+          </h1>
+          <h2 className="text-xl text-gray-300 mb-4">Front-end Developer</h2>
+          <h3 className="text-lg text-gray-400 mb-4">Konya, Turkey</h3>
+          <section className="mt-8 flex items-center gap-6">
+            <ResumeButton />
+            <Socials />
+          </section>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+      </section>
+      <section className="mb-4">
+        <div className="flex justify-between items-center border-b-2 border-gray-700 pb-2 mb-8">
+          <h2 className="text-3xl font-bold text-gray-100 ">
+            Current technologies
+          </h2>
+          <Link href="/skills" className="link flex items-center gap-2 font-light hover:scale-105">
+            <ArrowRightIcon className="size-5" />
+            <span>Full skill overview</span>
+          </Link>
+        </div>
+        <Skills />
+      </section>
+      <section className="flex flex-col gap-8">
+        <div className="flex justify-between items-center border-b-2 border-gray-700 pb-3">
+          <h2 className="text-3xl font-bold  text-gray-100 ">Featured projects</h2>
+          <Link href="/projects" className="link flex items-center gap-2 font-light hover:scale-105">
+            <ArrowRightIcon className="size-5 " />
+            <span>view more</span>
+          </Link>
+        </div>
+        <Projects limit={2} />
+      </section>
     </div>
   );
 }
