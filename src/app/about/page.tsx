@@ -14,13 +14,13 @@ function About() {
                         MongoDB, and gaining in-depth knowledge in this area. Additionally, I plan to expand my expertise by working
                         on projects with React Native in the field of mobile application development.
                     </p>
-                    <p>
-                    Front-end Technologies and Tools: Html, Css, Javascript, jQuery, Sass, Less, React.js, Typescript, Next.js, Astro,
-                    Gatsby, Three.js, Bootstrap, Tailwind CSS, Shadcn, Remix, JWT, Bulma, Figma,
-                    Back-end Technologies and Tools: Node.js, Express.js
-                    Database Technologies: Mongo DB, Supabase, Prisma, Firebase
-                    Deployment Tools: Git, Vercel, Heroku, Netlify
-                    Mobile Technologies: React Native, Expo
+                    <p className='bg-gray-900 p-2 mt-5 rounded-sm shadow-2xl'>
+                        <span className='text-red-400 font-bold'>Front-end Technologies and Tools:</span> Html, Css, Javascript, jQuery, Sass, Less, React.js, Typescript, Next.js, Astro,
+                        Gatsby, Deno, Three.js, Bootstrap, Tailwind CSS, Shadcn, Remix, JWT, Bulma, Figma, <br />
+                        <span className='text-red-400 font-bold'>Back-end Technologies and Tools:</span> Node.js, Express.js, GraphQL, Socket.IO <br />
+                        <span className='text-red-400 font-bold'>Database Technologies and Tools:</span> Mongo DB, Supabase, Prisma, Firebase <br />
+                        <span className='text-red-400 font-bold'>Deployment Tools:</span> Git, Vercel, Heroku, Netlify <br />
+                        <span className='text-red-400 font-bold'>Mobile Technologies and Tools:</span> React Native, Expo
                     </p>
                 </div>
             </section>

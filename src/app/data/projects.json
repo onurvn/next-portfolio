@@ -114,6 +114,167 @@
                     "icon": "github"
                 }
             ]
+        },
+        {
+            "name": "Twitch Clone",
+            "description": "Twitch clone with React.js, React Router and styled-components",
+            "href": "https://twitch-clone-weld.vercel.app/",
+            "image": "/img/project/twitch.png",
+            "tags": [
+                "React.js",
+                "Javascript",
+                "React Router",
+                "styled-components",
+                "Tailwind CSS"
+            ],
+            "links": [
+                {
+                    "name": "Live Demo",
+                    "href": "https://twitch-clone-weld.vercel.app/",
+                    "icon": "external-link"
+                },
+                {
+                    "name": "Source Code",
+                    "href": "https://github.com/onurvn/twitch-clone",
+                    "icon": "github"
+                }
+            ]
+        },
+        {
+            "name": "Movie App",
+            "description": "Movie app with React.js, Next.js and Tailwind CSS",
+            "href": "https://next-movie-five-alpha.vercel.app/",
+            "image": "/img/project/movie.png",
+            "tags": [
+                "React.js",
+                "Typescript",
+                "Next.js",
+                "Tailwind CSS"
+            ],
+            "links": [
+                {
+                    "name": "Live Demo",
+                    "href": "https://next-movie-five-alpha.vercel.app/",
+                    "icon": "external-link"
+                },
+                {
+                    "name": "Source Code",
+                    "href": "https://github.com/onurvn/next-movie",
+                    "icon": "github"
+                }
+            ]
+        },
+        {
+            "name": "Weather App",
+            "description": "Weather app with React.js",
+            "href": "https://weather-app-lyart-nine-84.vercel.app/",
+            "image": "/img/project/weather.png",
+            "tags": [
+                "Javascript",
+                "React.js"
+            ],
+            "links": [
+                {
+                    "name": "Live Demo",
+                    "href": "https://weather-app-lyart-nine-84.vercel.app/",
+                    "icon": "external-link"
+                },
+                {
+                    "name": "Source Code",
+                    "href": "https://github.com/onurvn/weather-app",
+                    "icon": "github"
+                }
+            ]
+        },
+        {
+            "name": "Todo App",
+            "description": "Todo app with React.js",
+            "href": "https://todo-app-theta-seven-88.vercel.app/",
+            "image": "/img/project/todo.png",
+            "tags": [
+                "React.",
+                "Javascript"
+            ],
+            "links": [
+                {
+                    "name": "Live Demo",
+                    "href": "https://todo-app-theta-seven-88.vercel.app/",
+                    "icon": "external-link"
+                },
+                {
+                    "name": "Source Code",
+                    "href": "https://github.com/onurvn/todo-app",
+                    "icon": "github"
+                }
+            ]
+        },
+        {
+            "name": "Quiz App",
+            "description": "Quiz app with React.js",
+            "href": "https://quiz-app-silk-nu.vercel.app/",
+            "image": "/img/project/quiz.png",
+            "tags": [
+                "React.js",
+                "Javascript",
+                "Tailwind CSS"
+            ],
+            "links": [
+                {
+                    "name": "Live Demo",
+                    "href": "https://quiz-app-silk-nu.vercel.app/",
+                    "icon": "external-link"
+                },
+                {
+                    "name": "Source Code",
+                    "href": "https://github.com/onurvn/quiz-app",
+                    "icon": "github"
+                }
+            ]
+        },
+        {
+            "name": "Spend Money App",
+            "description": "Spend Money app with React.js",
+            "href": "https://spend-money-app-kappa.vercel.app/",
+            "image": "/img/project/spendMoney.png",
+            "tags": [
+                "React.js",
+                "Javascript"
+            ],
+            "links": [
+                {
+                    "name": "Live Demo",
+                    "href": "https://spend-money-app-kappa.vercel.app/",
+                    "icon": "external-link"
+                },
+                {
+                    "name": "Source Code",
+                    "href": "https://github.com/onurvn/spend-money-app",
+                    "icon": "github"
+                }
+            ]
+        },
+        {
+            "name": "Task Manager",
+            "description": "Task Manager app with React.js, React Router and styled-components",
+            "href": "https://task-manager-smoky-eight.vercel.app/",
+            "image": "/img/project/task.png",
+            "tags": [
+                "React.js",
+                "Javascript",
+                "styled-components"
+            ],
+            "links": [
+                {
+                    "name": "Live Demo",
+                    "href": "https://task-manager-smoky-eight.vercel.app/",
+                    "icon": "external-link"
+                },
+                {
+                    "name": "Source Code",
+                    "href": "https://github.com/onurvn/task-manager",
+                    "icon": "github"
+                }
+            ]
         }
     ]
 }
