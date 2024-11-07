@@ -23,7 +23,7 @@ export default function Home() {
             Onur Avan
           </h1>
           <h2 className="text-xl text-gray-300 mb-4">Front-end Developer</h2>
-          <h3 className="text-lg text-gray-400 mb-4">Konya, Turkey</h3>
+          <h3 className="text-lg text-gray-400 mb-4">Aksaray, Turkey</h3>
           <section className="mt-8 flex items-center gap-6">
             <ResumeButton />
             <Socials />
