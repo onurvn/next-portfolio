@@ -18,8 +18,8 @@ function About() {
                             <li>
                                 <span className="text-red-400 font-bold">Front-End Technologies & Tools:</span>
                                 <span className="ml-2 text-gray-300">
-                                    HTML, CSS, JavaScript, jQuery, Sass, Less, React.js, TypeScript, Next.js, Astro, 
-                                    Gatsby, Bootstrap, Tailwind CSS, Shadcn, Remix, Bulma, Figma
+                                    HTML, CSS, JavaScript, jQuery, Sass, Less, React.js, Next.js, Astro, 
+                                    Gatsby, Bootstrap, Tailwind CSS, Shadcn, Remix, Bulma
                                 </span>
                             </li>
                             <li>
@@ -35,7 +35,7 @@ function About() {
                                 </span>
                             </li>
                             <li>
-                                <span className="text-red-400 font-bold">Deployment Tools:</span>
+                                <span className="text-red-400 font-bold">Version Control & Deployment Tools:</span>
                                 <span className="ml-2 text-gray-300">
                                     Git, GitHub, Vercel, Heroku, Netlify
                                 </span>
