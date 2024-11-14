@@ -18,14 +18,14 @@ function About() {
                             <li>
                                 <span className="text-red-400 font-bold">Front-End Technologies & Tools:</span>
                                 <span className="ml-2 text-gray-300">
-                                    HTML, CSS, JavaScript, jQuery, SASS, LESS, React.js, TypeScript, Next.js, Astro,
-                                    Gatsby, Deno, Three.js, Bootstrap, Tailwind CSS, Shadcn, Remix, JWT, Bulma, Figma
+                                    HTML, CSS, JavaScript, jQuery, Sass, Less, React.js, TypeScript, Next.js, Astro, 
+                                    Gatsby, Bootstrap, Tailwind CSS, Shadcn, Remix, Bulma, Figma
                                 </span>
                             </li>
                             <li>
                                 <span className="text-red-400 font-bold">Back-End Technologies & Tools:</span>
                                 <span className="ml-2 text-gray-300">
-                                    Node.js, Express.js, GraphQL, Socket.IO
+                                    Node.js, Express.js, GraphQL, Socket.IO, Deno
                                 </span>
                             </li>
                             <li>
@@ -37,13 +37,25 @@ function About() {
                             <li>
                                 <span className="text-red-400 font-bold">Deployment Tools:</span>
                                 <span className="ml-2 text-gray-300">
-                                    Git, Vercel, Heroku, Netlify
+                                    Git, GitHub, Vercel, Heroku, Netlify
                                 </span>
                             </li>
                             <li>
                                 <span className="text-red-400 font-bold">Mobile Technologies & Tools:</span>
                                 <span className="ml-2 text-gray-300">
                                     React Native, Expo
+                                </span>
+                            </li>
+                            <li>
+                                <span className="text-red-400 font-bold">UI/UX Design Tools:</span>
+                                <span className="ml-2 text-gray-300">
+                                    Figma
+                                </span>
+                            </li>
+                            <li>
+                                <span className="text-red-400 font-bold">Security Tools:</span>
+                                <span className="ml-2 text-gray-300">
+                                    JWT
                                 </span>
                             </li>
                         </ul>
