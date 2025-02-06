@@ -1,6 +1,54 @@
 {
     "projects": [
         {
+            "name": "Mern Notes App",
+            "description": "Mern Notes app with React.js, Tailwind CSS, Node.js, Express.js, MongoDB",
+            "href": "https://github.com/onurvn/mern-notes-app",
+            "image": "/img/project/mern-notes.png",
+            "tags": [
+                "Javascript",
+                "React.js",
+                "Tailwind CSS",
+                "React Router",
+                "Node.js",
+                "Express.js",
+                "MongoDB"
+            ],
+            "links": [
+                {
+                    "name": "Source Code",
+                    "href": "https://github.com/onurvn/mern-notes-app",
+                    "icon": "github"
+                }
+            ]
+        },
+        {
+            "name": "Real Estate App",
+            "description": "Real Estate app with React.js, Next.js, MongoDB, Clerk and Firebase",
+            "href": "https://real-estate-app-eight-orpin.vercel.app/",
+            "image": "/img/project/real-estate.png",
+            "tags": [
+                "Javascript",
+                "React.js",
+                "Next.js",
+                "MongoDB",
+                "Firebase",
+                "Clerk"
+            ],
+            "links": [
+                {
+                    "name": "Live Demo",
+                    "href": "https://real-estate-app-eight-orpin.vercel.app/",
+                    "icon": "external-link"
+                },
+                {
+                    "name": "Source Code",
+                    "href": "https://github.com/onurvn/real-estate-app",
+                    "icon": "github"
+                }
+            ]
+        },
+        {
             "name": "Disney Clone",
             "description": "Disney clone with React.js and Tailwind CSS.",
             "href": "https://disney-clone-with-react.vercel.app/",
