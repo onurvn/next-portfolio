@@ -6,7 +6,7 @@ import { FileDown } from "lucide-react";
 const ResumeButton: React.FC = () => {
     return (
         <a
-            href="https://drive.google.com/file/d/1eO_z59rB7zrgiCaLnS7Ony5-VFuHBGHI/view?usp=drive_link"
+            href="/"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center hover:bg-white text-white hover:text-[#111111] px-3 py-1 rounded transition duration-300 mr-4 border border-white"

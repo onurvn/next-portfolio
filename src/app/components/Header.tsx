@@ -1,43 +1,45 @@
-"use client"
+"use client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-
 const navLinks = [
-    {
-        name: "Home",
-        href: "/",
-    },
-    {
-        name: "Projects",
-        href: "/projects",
-    },
-    {
-        name: "About",
-        href: "/about",
-    },
-    {
-        name: "Contact",
-        href: "/contact",
-    },
+  {
+    name: "Home",
+    href: "/",
+  },
+  {
+    name: "Projects",
+    href: "/projects",
+  },
+  {
+    name: "Skills",
+    href: "/skills",
+  },
+  {
+    name: "About",
+    href: "/about",
+  },
 ];
 
 export default function Header() {
-    const pathname = usePathname();
+  const pathname = usePathname();
 
-    return (
-        <header className="sticky top-0 z-50 bg-background/75 py-6 backdrop-blur-sm">
-            <nav className="flex items-center justify-between">
-                <ul className="flex gap-4 sm:gap-8">
-                    {navLinks.map((nav, id) => (
-                        <li key={id} className={`link hover:font-semibold transition duration-200 ${pathname === nav.href ? "text-white font-bold" : ""
-                            }`}>
-                            <Link href={nav.href}>{nav.name}</Link>
-                        </li>
-                    ))}
-                </ul>
-
-            </nav>
-        </header>
-    );
+  return (
+    <header className="sticky top-0 z-50 bg-background/75 py-6 backdrop-blur-sm">
+      <nav className="flex items-center justify-between">
+        <ul className="flex gap-4 sm:gap-8">
+          {navLinks.map((nav, id) => (
+            <li
+              key={id}
+              className={`link hover:font-semibold transition duration-200 ${
+                pathname === nav.href ? "text-white font-bold" : ""
+              }`}
+            >
+              <Link href={nav.href}>{nav.name}</Link>
+            </li>
+          ))}
+        </ul>
+      </nav>
+    </header>
+  );
 }
